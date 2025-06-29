@@ -40,30 +40,79 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors contributing to high turnover among entry- and lower-level employees across various departments. The goal is to gather actionable insights about employee satisfaction, workplace environment, management practices, and professional development opportunities in order to improve retention and enhance the overall employee experience.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+•	Target Population: All current and recently departed employees who have held entry- or lower-level positions within the company in the past 12 months.
+•	Sampling Frame: The company’s HR database, which contains records of all employees, their job levels, departments, and employment status (active or exited).
+•	Sampling Units: Individual employees (current or former) in entry- or lower-level roles.
+•	Sampling Strategy: We will use stratified random sampling based on department to ensure representation across all divisions. This will help us identify both company-wide and department-specific issues. Additionally, we’ll include a voluntary response component to allow exited employees to opt in through a post-exit email invitation.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied were you with your role at the company?
+	-	Very satisfied
+	-	Somewhat satisfied
+	-	Neutral
+	-	Somewhat dissatisfied
+	-	Very dissatisfied
+2. How would you rate your relationship with your direct supervisor?
+	-	Excellent
+	-	Good
+	-	Fair
+	-	Poor
+	-	Very poor
+3. Which of the following were major factors in your decision to leave or consider leaving? (Select all that apply)
+	-	Low compensation
+	-	Lack of advancement opportunities
+	-	Poor management
+	-	Work-life balance
+	-	Inadequate training or support
+	-	Company culture
+	-	Job not as expected
+4. Did you feel that your work was recognized and valued?
+	-	Always
+	-	Often
+	-	Sometimes
+	-	Rarely
+	-	Never
+5. How well did the onboarding process prepare you for your role?
+	-	Extremely well
+	-	Very well
+	-	Moderately well
+	-	Slightly well
+	-	Not at all
+6. Were there clear opportunities for professional development and growth?
+	-	Yes
+	-	Somewhat
+	-	No
+7. Do you feel the workload expectations were reasonable for your position?
+	-	Yes
+	-	No
+	-	Not sure
+8. Would you recommend this company to a friend looking for a similar role?
+	-	Yes
+	-	No
+	-	Maybe
+9. How would you describe the communication within your department?
+	-	Very effective
+	-	Somewhat effective
+	-	Neutral
+	-	Somewhat ineffective
+	-	Very ineffective
+10. What changes would have made you more likely to stay with the company?
+    -   Better Salary
+    -   Better Management
+    -   Better Benefits
+    -   Better Oppurtunites
+    -   Better work environment
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,9 +120,61 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
-```
+1. Sample type
+    - Stratified, province/CMA level
+    - Multi-stage, first select telephone‑number linked to dwellings, then randomly pick one individual aged 15 in each household
+    - Random sampling, Individuals already identified as volunteers all got a long interview; non-volunteers were randomly split into long‑ and short‑interview groups
 
+2. Sample size
+    - 50,000
+
+3. Target population
+    - 15 years of age or older, living private households in the ten provinces.
+
+4. Sampling frame
+    - Telephone numbers (landline and cellular) linked to the dwelling frame from Census and administrative sources
+
+5. Survey mode(s) 
+    - Computer-Assisted Telephone Interviewing (CATI)
+    - Electronic questionnaire
+
+6. Timeline
+    - from September to December (Collection period)
+    - 12 months (reference period)
+
+7. Response rate
+    - The overall response rate is 41.9%.
+
+8. Weights
+    - Sampling weights included in stratification, clustering, and differing inclusion probabilities—as well as adjustments for non-response and population totals
+    - one person was equal to 50 people in the population including the survey person.
+
+9. Data processing
+    - linked to the personal tax records
+
+10. Cleaning, imputation, etc
+    - Cleaning, real-time and post-survey edits at head office
+    - Imputation was carried out in nine steps.
+    - Weights, estimation weights and bootstrap weights were used to desing the variance.
+
+11. Sources of error
+    - Variability due to sample-based estimates
+    - Missing or duplicate population units in sampling frame
+    - Nonresponse
+    - Misinterpretation of survey questions or reporting incorrect information
+
+12. Limitations, known biases, etc
+    - Less than 50% response rate
+    - 12 months is a long time to recollect and can lead to assumption based response.
+    - Non responsive bias and using survey weights to balance it
+    - people without telephones were excluded from the survey
+
+13. Link to documentation and any additional sources used```
+    - https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+    - Google
+    - Chatgpt
+    - https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm
+```
 ## Rubric
 
 -	All required components are present and complete **Complete / Incomplete**
